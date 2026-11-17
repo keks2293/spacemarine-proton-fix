@@ -1,0 +1,5 @@
+{
+  "Comment": "Per-game FEX config for Warhammer 40,000: Space Marine (Steam appid 55150). Repo copy; symlinked into ~/.config/fex-emu/AppConfig/Steam_55150_SpaceMarine.exe.json",
+  "Config": {
+  }
+}

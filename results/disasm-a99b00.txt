@@ -1,0 +1,316 @@
+/var/home/armada/.local/share/Steam/steamapps/common/Warhammer 40,000 Space Marine/SpaceMarine.exe:     file format pei-i386
+Disassembly of section .text:
+00a99b00 <.text+0x698b00>:
+a99b00:	c1 e0 05             	shl    $0x5,%eax
+a99b03:	6a 20                	push   $0x20
+a99b05:	8d 84 30 e8 00 00 00 	lea    0xe8(%eax,%esi,1),%eax
+a99b0c:	50                   	push   %eax
+a99b0d:	e8 b7 14 00 00       	call   0xa9afc9
+a99b12:	ff 74 24 14          	push   0x14(%esp)
+a99b16:	c1 e7 05             	shl    $0x5,%edi
+a99b19:	8d 84 37 e8 00 00 00 	lea    0xe8(%edi,%esi,1),%eax
+a99b20:	50                   	push   %eax
+a99b21:	ff 74 24 18          	push   0x18(%esp)
+a99b25:	e8 da 08 4d 00       	call   0xf6a404
+a99b2a:	83 c4 0c             	add    $0xc,%esp
+a99b2d:	5f                   	pop    %edi
+a99b2e:	5e                   	pop    %esi
+a99b2f:	c2 0c 00             	ret    $0xc
+a99b32:	8b 44 24 04          	mov    0x4(%esp),%eax
+a99b36:	6b c0 74             	imul   $0x74,%eax,%eax
+a99b39:	8a 04 08             	mov    (%eax,%ecx,1),%al
+a99b3c:	c2 04 00             	ret    $0x4
+a99b3f:	b8 8e 47 3c 01       	mov    $0x13c478e,%eax
+a99b44:	e8 8b 06 4d 00       	call   0xf6a1d4
+a99b49:	51                   	push   %ecx
+a99b4a:	68 28 01 00 00       	push   $0x128
+a99b4f:	e8 ac cc ff ff       	call   0xa96800
+a99b54:	59                   	pop    %ecx
+a99b55:	8b c8                	mov    %eax,%ecx
+a99b57:	89 4d f0             	mov    %ecx,-0x10(%ebp)
+a99b5a:	33 c0                	xor    %eax,%eax
+a99b5c:	89 45 fc             	mov    %eax,-0x4(%ebp)
+a99b5f:	3b c8                	cmp    %eax,%ecx
+a99b61:	74 05                	je     0xa99b68
+a99b63:	e8 ed fe ff ff       	call   0xa99a55
+a99b68:	8b 4d f4             	mov    -0xc(%ebp),%ecx
+a99b6b:	a3 e4 17 d4 01       	mov    %eax,0x1d417e4
+a99b70:	64 89 0d 00 00 00 00 	mov    %ecx,%fs:0x0
+a99b77:	c9                   	leave
+a99b78:	c3                   	ret
+a99b79:	8b 0d e4 17 d4 01    	mov    0x1d417e4,%ecx
+a99b7f:	56                   	push   %esi
+a99b80:	8b f1                	mov    %ecx,%esi
+a99b82:	85 c9                	test   %ecx,%ecx
+a99b84:	74 0c                	je     0xa99b92
+a99b86:	e8 33 ff ff ff       	call   0xa99abe
+a99b8b:	56                   	push   %esi
+a99b8c:	e8 ce cb ff ff       	call   0xa9675f
+a99b91:	59                   	pop    %ecx
+a99b92:	83 25 e4 17 d4 01 00 	andl   $0x0,0x1d417e4
+a99b99:	5e                   	pop    %esi
+a99b9a:	c3                   	ret
+a99b9b:	cc                   	int3
+a99b9c:	cc                   	int3
+a99b9d:	cc                   	int3
+a99b9e:	cc                   	int3
+a99b9f:	cc                   	int3
+a99ba0:	e8 bb 33 4a 00       	call   0xf3cf60
+a99ba5:	c3                   	ret
+a99ba6:	cc                   	int3
+a99ba7:	cc                   	int3
+a99ba8:	cc                   	int3
+a99ba9:	cc                   	int3
+a99baa:	cc                   	int3
+a99bab:	cc                   	int3
+a99bac:	cc                   	int3
+a99bad:	cc                   	int3
+a99bae:	cc                   	int3
+a99baf:	cc                   	int3
+a99bb0:	e8 2b 2f 4a 00       	call   0xf3cae0
+a99bb5:	c3                   	ret
+a99bb6:	cc                   	int3
+a99bb7:	cc                   	int3
+a99bb8:	cc                   	int3
+a99bb9:	cc                   	int3
+a99bba:	cc                   	int3
+a99bbb:	cc                   	int3
+a99bbc:	cc                   	int3
+a99bbd:	cc                   	int3
+a99bbe:	cc                   	int3
+a99bbf:	cc                   	int3
+a99bc0:	e8 cb 2d 4a 00       	call   0xf3c990
+a99bc5:	c3                   	ret
+a99bc6:	cc                   	int3
+a99bc7:	cc                   	int3
+a99bc8:	cc                   	int3
+a99bc9:	cc                   	int3
+a99bca:	cc                   	int3
+a99bcb:	cc                   	int3
+a99bcc:	cc                   	int3
+a99bcd:	cc                   	int3
+a99bce:	cc                   	int3
+a99bcf:	cc                   	int3
+a99bd0:	e8 8b 2c 4a 00       	call   0xf3c860
+a99bd5:	c3                   	ret
+a99bd6:	cc                   	int3
+a99bd7:	cc                   	int3
+a99bd8:	cc                   	int3
+a99bd9:	cc                   	int3
+a99bda:	cc                   	int3
+a99bdb:	cc                   	int3
+a99bdc:	cc                   	int3
+a99bdd:	cc                   	int3
+a99bde:	cc                   	int3
+a99bdf:	cc                   	int3
+a99be0:	e8 4b 2b 4a 00       	call   0xf3c730
+a99be5:	c3                   	ret
+a99be6:	cc                   	int3
+a99be7:	cc                   	int3
+a99be8:	cc                   	int3
+a99be9:	cc                   	int3
+a99bea:	cc                   	int3
+a99beb:	cc                   	int3
+a99bec:	cc                   	int3
+a99bed:	cc                   	int3
+a99bee:	cc                   	int3
+a99bef:	cc                   	int3
+a99bf0:	e8 eb 29 4a 00       	call   0xf3c5e0
+a99bf5:	c3                   	ret
+a99bf6:	cc                   	int3
+a99bf7:	cc                   	int3
+a99bf8:	cc                   	int3
+a99bf9:	cc                   	int3
+a99bfa:	cc                   	int3
+a99bfb:	cc                   	int3
+a99bfc:	cc                   	int3
+a99bfd:	cc                   	int3
+a99bfe:	cc                   	int3
+a99bff:	cc                   	int3
+a99c00:	e8 ab 28 4a 00       	call   0xf3c4b0
+a99c05:	c3                   	ret
+a99c06:	cc                   	int3
+a99c07:	cc                   	int3
+a99c08:	cc                   	int3
+a99c09:	cc                   	int3
+a99c0a:	cc                   	int3
+a99c0b:	cc                   	int3
+a99c0c:	cc                   	int3
+a99c0d:	cc                   	int3
+a99c0e:	cc                   	int3
+a99c0f:	cc                   	int3
+a99c10:	e8 6b 27 4a 00       	call   0xf3c380
+a99c15:	c3                   	ret
+a99c16:	cc                   	int3
+a99c17:	cc                   	int3
+a99c18:	cc                   	int3
+a99c19:	cc                   	int3
+a99c1a:	cc                   	int3
+a99c1b:	cc                   	int3
+a99c1c:	cc                   	int3
+a99c1d:	cc                   	int3
+a99c1e:	cc                   	int3
+a99c1f:	cc                   	int3
+a99c20:	e8 0b 26 4a 00       	call   0xf3c230
+a99c25:	c3                   	ret
+a99c26:	cc                   	int3
+a99c27:	cc                   	int3
+a99c28:	cc                   	int3
+a99c29:	cc                   	int3
+a99c2a:	cc                   	int3
+a99c2b:	cc                   	int3
+a99c2c:	cc                   	int3
+a99c2d:	cc                   	int3
+a99c2e:	cc                   	int3
+a99c2f:	cc                   	int3
+a99c30:	e8 cb 24 4a 00       	call   0xf3c100
+a99c35:	c3                   	ret
+a99c36:	cc                   	int3
+a99c37:	cc                   	int3
+a99c38:	cc                   	int3
+a99c39:	cc                   	int3
+a99c3a:	cc                   	int3
+a99c3b:	cc                   	int3
+a99c3c:	cc                   	int3
+a99c3d:	cc                   	int3
+a99c3e:	cc                   	int3
+a99c3f:	cc                   	int3
+a99c40:	e8 8b 23 4a 00       	call   0xf3bfd0
+a99c45:	c3                   	ret
+a99c46:	cc                   	int3
+a99c47:	cc                   	int3
+a99c48:	cc                   	int3
+a99c49:	cc                   	int3
+a99c4a:	cc                   	int3
+a99c4b:	cc                   	int3
+a99c4c:	cc                   	int3
+a99c4d:	cc                   	int3
+a99c4e:	cc                   	int3
+a99c4f:	cc                   	int3
+a99c50:	e8 2b 22 4a 00       	call   0xf3be80
+a99c55:	c3                   	ret
+a99c56:	cc                   	int3
+a99c57:	cc                   	int3
+a99c58:	cc                   	int3
+a99c59:	cc                   	int3
+a99c5a:	cc                   	int3
+a99c5b:	cc                   	int3
+a99c5c:	cc                   	int3
+a99c5d:	cc                   	int3
+a99c5e:	cc                   	int3
+a99c5f:	cc                   	int3
+a99c60:	e8 eb 20 4a 00       	call   0xf3bd50
+a99c65:	c3                   	ret
+a99c66:	cc                   	int3
+a99c67:	cc                   	int3
+a99c68:	cc                   	int3
+a99c69:	cc                   	int3
+a99c6a:	cc                   	int3
+a99c6b:	cc                   	int3
+a99c6c:	cc                   	int3
+a99c6d:	cc                   	int3
+a99c6e:	cc                   	int3
+a99c6f:	cc                   	int3
+a99c70:	e8 ab 1f 4a 00       	call   0xf3bc20
+a99c75:	c3                   	ret
+a99c76:	cc                   	int3
+a99c77:	cc                   	int3
+a99c78:	cc                   	int3
+a99c79:	cc                   	int3
+a99c7a:	cc                   	int3
+a99c7b:	cc                   	int3
+a99c7c:	cc                   	int3
+a99c7d:	cc                   	int3
+a99c7e:	cc                   	int3
+a99c7f:	cc                   	int3
+a99c80:	e8 ab 1e 4a 00       	call   0xf3bb30
+a99c85:	c3                   	ret
+a99c86:	cc                   	int3
+a99c87:	cc                   	int3
+a99c88:	cc                   	int3
+a99c89:	cc                   	int3
+a99c8a:	cc                   	int3
+a99c8b:	cc                   	int3
+a99c8c:	cc                   	int3
+a99c8d:	cc                   	int3
+a99c8e:	cc                   	int3
+a99c8f:	cc                   	int3
+a99c90:	e8 cb 1d 4a 00       	call   0xf3ba60
+a99c95:	c3                   	ret
+a99c96:	cc                   	int3
+a99c97:	cc                   	int3
+a99c98:	cc                   	int3
+a99c99:	cc                   	int3
+a99c9a:	cc                   	int3
+a99c9b:	cc                   	int3
+a99c9c:	cc                   	int3
+a99c9d:	cc                   	int3
+a99c9e:	cc                   	int3
+a99c9f:	cc                   	int3
+a99ca0:	e8 6b 2f 4a 00       	call   0xf3cc10
+a99ca5:	89 44 24 fc          	mov    %eax,-0x4(%esp)
+a99ca9:	d9 44 24 fc          	flds   -0x4(%esp)
+a99cad:	c3                   	ret
+a99cae:	cc                   	int3
+a99caf:	cc                   	int3
+a99cb0:	e8 8b 30 4a 00       	call   0xf3cd40
+a99cb5:	89 44 24 fc          	mov    %eax,-0x4(%esp)
+a99cb9:	d9 44 24 fc          	flds   -0x4(%esp)
+a99cbd:	c3                   	ret
+a99cbe:	cc                   	int3
+a99cbf:	cc                   	int3
+a99cc0:	e8 cb 31 4a 00       	call   0xf3ce90
+a99cc5:	89 44 24 fc          	mov    %eax,-0x4(%esp)
+a99cc9:	d9 44 24 fc          	flds   -0x4(%esp)
+a99ccd:	c3                   	ret
+a99cce:	cc                   	int3
+a99ccf:	cc                   	int3
+a99cd0:	e8 5b 33 4a 00       	call   0xf3d030
+a99cd5:	89 44 24 fc          	mov    %eax,-0x4(%esp)
+a99cd9:	d9 44 24 fc          	flds   -0x4(%esp)
+a99cdd:	c3                   	ret
+a99cde:	cc                   	int3
+a99cdf:	cc                   	int3
+a99ce0:	e8 3b 34 4a 00       	call   0xf3d120
+a99ce5:	89 44 24 fc          	mov    %eax,-0x4(%esp)
+a99ce9:	d9 44 24 fc          	flds   -0x4(%esp)
+a99ced:	c3                   	ret
+a99cee:	cc                   	int3
+a99cef:	cc                   	int3
+a99cf0:	e8 fb 34 4a 00       	call   0xf3d1f0
+a99cf5:	89 44 24 fc          	mov    %eax,-0x4(%esp)
+a99cf9:	d9 44 24 fc          	flds   -0x4(%esp)
+a99cfd:	c3                   	ret
+a99cfe:	cc                   	int3
+a99cff:	cc                   	int3
+a99d00:	e8 bb 35 4a 00       	call   0xf3d2c0
+a99d05:	89 44 24 fc          	mov    %eax,-0x4(%esp)
+a99d09:	d9 44 24 fc          	flds   -0x4(%esp)
+a99d0d:	c3                   	ret
+a99d0e:	cc                   	int3
+a99d0f:	cc                   	int3
+a99d10:	e8 9b 36 4a 00       	call   0xf3d3b0
+a99d15:	89 44 24 fc          	mov    %eax,-0x4(%esp)
+a99d19:	d9 44 24 fc          	flds   -0x4(%esp)
+a99d1d:	c3                   	ret
+a99d1e:	cc                   	int3
+a99d1f:	cc                   	int3
+a99d20:	e8 5b 37 4a 00       	call   0xf3d480
+a99d25:	89 44 24 fc          	mov    %eax,-0x4(%esp)
+a99d29:	d9 44 24 fc          	flds   -0x4(%esp)
+a99d2d:	c3                   	ret
+a99d2e:	cc                   	int3
+a99d2f:	cc                   	int3
+a99d30:	e8 1b 38 4a 00       	call   0xf3d550
+a99d35:	89 44 24 fc          	mov    %eax,-0x4(%esp)
+a99d39:	d9 44 24 fc          	flds   -0x4(%esp)
+a99d3d:	c3                   	ret
+a99d3e:	cc                   	int3
+a99d3f:	cc                   	int3
+a99d40:	e8 fb 38 4a 00       	call   0xf3d640
+a99d45:	89 44 24 fc          	mov    %eax,-0x4(%esp)
+a99d49:	d9 44 24 fc          	flds   -0x4(%esp)
+a99d4d:	c3                   	ret
+a99d4e:	cc                   	int3
+a99d4f:	cc                   	int3
+a99d50:	e8
